@@ -1,6 +1,6 @@
 # Newsletter Django App
 
-This repository contains a Django application for managing newsletters.
+This repository contains a Django application for a Newsletter App.
 
 ## Installation
  1. Clone this repository to your local machine:
@@ -9,7 +9,7 @@ This repository contains a Django application for managing newsletters.
  ```
  2. Navigate to the project directory:
  ```bash
- cd newsletter-django
+ cd news
  ```
  3. It is recommended to set up a virtual environment before installing the project dependencies. You can use `venv` or `virtualenv` for this purpose. Assuming you have Python installed, you can create a virtual environment by running:
  ```bash
@@ -28,7 +28,7 @@ This repository contains a Django application for managing newsletters.
  pip install -r requirements.txt
  ```
  ## Configuration
- 1. Create a `.env` file in the root directory of the project and specify your configuration variables. You can use the `.env.example` file as a template.
+ 1. Create a `.env` file in the root directory of the project and specify your configuration variables.
  2. Make necessary database migrations:
  ```bash
  python manage.py makemigrations
@@ -40,9 +40,3 @@ This repository contains a Django application for managing newsletters.
  python manage.py runserver
  ```
  The application will be accessible at `http://localhost:8000/`.
- ## Usage
- Once the application is running, you can access the admin interface at `http://localhost:8000/admin/` to manage newsletters and subscribers.
- ## Contributing
- Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
- ## License
- This project is licensed under the [MIT License](LICENSE).
