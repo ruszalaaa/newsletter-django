@@ -5,7 +5,7 @@ This repository contains a Django application for a Newsletter App.
 ## Installation
  1. Clone this repository to your local machine:
  ```bash
- git clone https://github.com/your-username/newsletter-django.git
+ git clone https://github.com/szymonruszala5/news.git
  ```
  2. Navigate to the project directory:
  ```bash
