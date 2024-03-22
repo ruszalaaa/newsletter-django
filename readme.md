@@ -13,15 +13,15 @@ cd newsletter-django
 ```
 3. It is recommended to set up a virtual environment before installing the project dependencies. You can use `venv` or `virtualenv` for this purpose. Assuming you have Python installed, you can create a virtual environment by running:
 ```bash
-python -m venv env
+python -m venv .venv #use python3 on macos/linux
 ```
 4. Activate the virtual environment. On Windows, run:
 ```bash
-.\env\Scripts\activate
+.venv\Scripts\activate
 ```
 On macOS and Linux, run:
 ```bash
-source env/bin/activate
+source .venv/bin/activate
 ```
 5. Install the required dependencies using pip:
 ```bash
