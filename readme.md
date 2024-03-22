@@ -9,7 +9,7 @@ git clone https://github.com/szymonruszala5/newsletter-django.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd news
+cd newsletter-django
 ```
 3. It is recommended to set up a virtual environment before installing the project dependencies. You can use `venv` or `virtualenv` for this purpose. Assuming you have Python installed, you can create a virtual environment by running:
 ```bash
